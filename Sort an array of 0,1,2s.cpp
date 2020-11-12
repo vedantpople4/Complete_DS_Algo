@@ -10,3 +10,17 @@ int main(){
         else if (k[i]==1) b++;
         else a++;
     }
+     while(c!=0){
+        cout<<2<<" ";
+        c--;
+    }
+    while(b!=0){
+        cout<<1<<" ";
+        b--;
+    }
+    while(a!=0){
+        cout<<0<<" ";
+        a--;
+    }
+    return 0;
+}
